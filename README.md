@@ -75,7 +75,7 @@ The platform offers a complete shopping experience with authentication, product 
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Fresh-Cart.git
+git clone https://github.com/YoussefElhabal/Fresh-Cart.git
 cd Fresh-Cart
 ```
 
