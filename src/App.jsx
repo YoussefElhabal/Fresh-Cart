@@ -20,7 +20,6 @@ import WishListContextProvider from './Context/WishListContext';
 import Payment from './Components/Payment/Payment';
 import Home from './Components/Home/Home';
 import Profile from './Components/Profile/Profile';
-import { Offline } from 'react-detect-offline';
 
 const router = createBrowserRouter([
   {
@@ -54,11 +53,6 @@ function App() {
             <WishListContextProvider>
               <RouterProvider router={router} />
               <Toaster />
-              <Offline>
-                <div className="bg-black text-white p-5 fixed bottom-5 left-5 rounded-xl">
-                  You are currently offline. Please check your internet connection.
-                </div>
-              </Offline>
             </WishListContextProvider>
           </CartContextProvider>
         </QueryClientProvider>
